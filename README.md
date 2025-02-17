@@ -7,6 +7,10 @@ Goals:
 3. Put into practice NNs specially conceived for analysing images. Design and optimize the parameters of a _Convolutional Neural Net (CNN_) to deal with previous image classification task.
 4. Train popular architectures from scratch (_e.g., GoogLeNet, VGG, ResNet, ..._), and **compare the results** with the ones provided by their pre-trained versions using transfer learning.
 
+-------------------------------------------------------
+## Database
+xView (http://xviewdataset.org/) is a large publicly available object detection data set, with approximately 1 million objects across 60 categories. It contains manually annotated images from different scenes around the world, acquired using the WorldView-3 satellite at 0.3m ground sample distance. There are 846 annotated images in total. For this practice, we divide these annotations into 761 and 85 images for training and testing respectively
+
 Image recognition is crucial in computer vision, as it involves recognizing and categorizing
 objects, scenes, or patterns in digital images or video frames. Its significance resonates
 across diverse real-world applications, spanning autonomous driving, medical diagnosis,
