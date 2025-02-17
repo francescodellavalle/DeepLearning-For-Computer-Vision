@@ -1,4 +1,4 @@
-# DeepLearnig
+# Deep Learning
 Image Recognition project, Universidad Politecnica de Madrid.
 
 Goals:
