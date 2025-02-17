@@ -2,10 +2,10 @@
 Image Recognition project, Universidad Politecnica de Madrid.
 
 Goals:
-• Develop proficiency in using Tensorflow/Keras for training Neural Nets (NNs).
-• Put into practice acquired knowledge to optimize the parameters and architecture of a feed-forward Neural Net (ffNN), in the context of an image recognition problem.
-• Put into practice NNs specially conceived for analysing images. Design and optimize the parameters of a Convolutional Neural Net (CNN) to deal with previous image classification task.
-• Train popular architectures from scratch (e.g., GoogLeNet, VGG, ResNet, ...), and compare the results with the ones provided by their pre-trained versions using transfer learning.
+1. Develop proficiency in using Tensorflow/Keras for training Neural Nets (NNs).
+2. Put into practice acquired knowledge to optimize the parameters and architecture of a feed-forward Neural Net (ffNN), in the context of an image recognition problem.
+3. Put into practice NNs specially conceived for analysing images. Design and optimize the parameters of a Convolutional Neural Net (CNN) to deal with previous image classification task.
+4. Train popular architectures from scratch (e.g., GoogLeNet, VGG, ResNet, ...), and compare the results with the ones provided by their pre-trained versions using transfer learning.
 
 Image recognition is crucial in computer vision, as it involves recognizing and categorizing
 objects, scenes, or patterns in digital images or video frames. Its significance resonates
