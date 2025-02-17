@@ -18,3 +18,21 @@ objects and patterns depicted in images.
 However, despite these remarkable advancements, image recognition still presents
 significant challenges due to factors such as occlusions, variations in scale and orientation,
 and the presence of multiple objects within a single scene
+
+------------------
+We commenced our journey with feed-forward Neural Nets (ffNN), traversed through
+Convolutional Neural Nets (CNNs), and culminated by training popular architectures from
+scratch using transfer learning. Beginning with dataset analysis, we meticulously evaluated
+our network performances on the testing dataset, fine-tuning hyperparameters to enhance
+results. Ultimately, we achieved notable outcomes, experimenting with various networks to
+enrich our analysis.
+Our most promising results were achieved as follows: ffNNs yielded the best performance in
+the second experiment, CNNs excelled in the initial experiment, and regarding Transfer
+Learning, the final experiment showcased superior results. Additionally, it's worth noting that
+the performance across Transfer Learning experiments could potentially have been further
+improved if not for the stringent computational limitations we faced. Especially, we would
+have likely addressed the misclassification issue related to the "Helicopter" class had we
+been afforded more epochs for training in the Transfer Learning experiments. As we did,
+focusing on data augmentation for a particular class, such as the "Helicopter" class, could
+have been a strategic decision. This approach involves augmenting the available data for
+that specific class by applying transformations such as rotation, scaling, or flipping.
