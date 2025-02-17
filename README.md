@@ -11,6 +11,8 @@ Goals:
 ## Database
 xView (http://xviewdataset.org/) is a large publicly available object detection data set, with approximately 1 million objects across 60 categories. It contains manually annotated images from different scenes around the world, acquired using the WorldView-3 satellite at 0.3m ground sample distance. There are 846 annotated images in total. For this practice, we divide these annotations into 761 and 85 images for training and testing respectively
 
+---------------------------------------------
+
 Image recognition is crucial in computer vision, as it involves recognizing and categorizing
 objects, scenes, or patterns in digital images or video frames. Its significance resonates
 across diverse real-world applications, spanning autonomous driving, medical diagnosis,
@@ -29,20 +31,3 @@ However, despite these remarkable advancements, image recognition still presents
 significant challenges due to factors such as occlusions, variations in scale and orientation,
 and the presence of multiple objects within a single scene
 
-------------------
-We started our journey with feed-forward Neural Nets (**ffNN**), traversed through
-Convolutional Neural Nets (**CNNs**), and culminated by **training popular architectures from
-scratch** using transfer learning. Beginning with dataset analysis, we meticulously evaluated
-our network performances on the testing dataset, fine-tuning hyperparameters to enhance
-results. Ultimately, we achieved notable outcomes, experimenting with various networks to
-enrich our analysis.
-Our most promising results were achieved as follows: ffNNs yielded the best performance in
-the second experiment, CNNs excelled in the initial experiment, and regarding Transfer
-Learning, the final experiment showcased superior results. Additionally, it's worth noting that
-the performance across Transfer Learning experiments could potentially have been further
-improved if not for the stringent computational limitations we faced. Especially, we would
-have likely addressed the misclassification issue related to the "Helicopter" class had we
-been afforded more epochs for training in the Transfer Learning experiments. As we did,
-focusing on data augmentation for a particular class, such as the "Helicopter" class, could
-have been a strategic decision. This approach involves augmenting the available data for
-that specific class by applying transformations such as rotation, scaling, or flipping.
