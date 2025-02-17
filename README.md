@@ -20,9 +20,9 @@ significant challenges due to factors such as occlusions, variations in scale an
 and the presence of multiple objects within a single scene
 
 ------------------
-We commenced our journey with feed-forward Neural Nets (ffNN), traversed through
-Convolutional Neural Nets (CNNs), and culminated by training popular architectures from
-scratch using transfer learning. Beginning with dataset analysis, we meticulously evaluated
+We started our journey with feed-forward Neural Nets (**ffNN**), traversed through
+Convolutional Neural Nets (**CNNs**), and culminated by **training popular architectures from
+scratch** using transfer learning. Beginning with dataset analysis, we meticulously evaluated
 our network performances on the testing dataset, fine-tuning hyperparameters to enhance
 results. Ultimately, we achieved notable outcomes, experimenting with various networks to
 enrich our analysis.
